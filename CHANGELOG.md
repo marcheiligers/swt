@@ -1,10 +1,16 @@
+# 4.18
+
+## Improvements
+
+* Update to SWT 4.18
+
 # 4.6.1.1
 
 ## Improvements
 
 * split up `swt/full` into `swt/core`, `swt/bot` and `swt/jface` so that they
  can be required separately
- 
+
 # 4.6.1
 
 ## Improvements

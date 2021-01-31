@@ -29,11 +29,19 @@ Features:
 Linux / windows:
 
     jruby examples/button.rb
-  
+
 On OSX:
 
     jruby -J-XstartOnFirstThread examples/button.rb
-  
+
+## Development
+
+### Updating SWT
+
+1. Grab the latest release of "SWT Binary and Source" from [Eclipse Downloads](https://download.eclipse.org/eclipse/downloads/index.html#Latest_Release) for each platform, unzip and copy the`swt.jar`, renamed to `swt-{platform}.jar` into the `vendor/swt` directory.
+1. Update the version in `lib/swt/version.rb`. The version should match the SWT version.
+1. Update the CHANGELOG.md
+
 ## History
 
 **4.6** Removed MacOS 32 bit support (SWT project doesn't seem to support it any more)
