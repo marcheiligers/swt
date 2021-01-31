@@ -3,6 +3,7 @@ module Swt
 
   module Widgets
     import org.eclipse.swt.widgets.Button
+    import org.eclipse.swt.widgets.Canvas
     import org.eclipse.swt.widgets.Caret
     import org.eclipse.swt.widgets.Combo
     import org.eclipse.swt.widgets.Composite
