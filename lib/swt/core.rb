@@ -7,26 +7,27 @@ module Swt
     import org.eclipse.swt.widgets.Caret
     import org.eclipse.swt.widgets.Combo
     import org.eclipse.swt.widgets.Composite
-    import org.eclipse.swt.widgets.Event
+    import org.eclipse.swt.widgets.CoolBar
+    import org.eclipse.swt.widgets.CoolItem
+    import org.eclipse.swt.widgets.Dialog
     import org.eclipse.swt.widgets.DirectoryDialog
+    import org.eclipse.swt.widgets.Event
     import org.eclipse.swt.widgets.FileDialog
     import org.eclipse.swt.widgets.List
     import org.eclipse.swt.widgets.Menu
     import org.eclipse.swt.widgets.MenuItem
     import org.eclipse.swt.widgets.MessageBox
-    import org.eclipse.swt.widgets.ToolBar
-    import org.eclipse.swt.widgets.ToolItem
-    import org.eclipse.swt.widgets.CoolBar
-    import org.eclipse.swt.widgets.CoolItem
     import org.eclipse.swt.widgets.Sash
     import org.eclipse.swt.widgets.Slider
     import org.eclipse.swt.widgets.TabFolder
     import org.eclipse.swt.widgets.TabItem
-    import org.eclipse.swt.widgets.TableColumn
-    import org.eclipse.swt.widgets.Text
-    import org.eclipse.swt.widgets.ToolTip
     import org.eclipse.swt.widgets.Table
+    import org.eclipse.swt.widgets.TableColumn
     import org.eclipse.swt.widgets.TableItem
+    import org.eclipse.swt.widgets.Text
+    import org.eclipse.swt.widgets.ToolBar
+    import org.eclipse.swt.widgets.ToolItem
+    import org.eclipse.swt.widgets.ToolTip
   end
 
   module Custom
